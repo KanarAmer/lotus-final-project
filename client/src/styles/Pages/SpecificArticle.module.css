@@ -1,0 +1,58 @@
+/* styles for Specific-Article module */
+
+.SpecificArticle {
+  /* background-color: red; */
+  width: 100vw;
+  /* height: 4rem; */
+  padding: 2rem;
+  /* layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.SpecificArticle .article-msg {
+  color: #f55;
+  font-family: 'Lato', sans-serif;
+}
+
+.SpecificArticle .article-section {
+  min-height: 10rem;
+  height: fit-content;
+  width: 80%;
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.SpecificArticle .article-section .article-metadata {
+  width: 80%;
+  text-align: center;
+  margin-bottom: .9rem;
+}
+
+.SpecificArticle .article-section .article-metadata .article-title {
+  margin-bottom: .2rem;
+  color: #999;
+  font-family: 'Lato', sans-serif;
+}
+.SpecificArticle .article-section .article-metadata .article-doc {
+  color: #555;
+  font-family: 'Lato', sans-serif;
+  font-size: .65rem;
+}
+
+.SpecificArticle .article-section hr {
+  width: 90%;
+  margin-bottom: 1.2rem;
+}
+
+.SpecificArticle .article-section p {
+  color: #222;
+  font-family: 'Lato', sans-serif;
+}
+

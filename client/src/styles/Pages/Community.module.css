@@ -1,0 +1,71 @@
+/* styles for Community module */
+
+.Community {
+  /* background-color: red; */
+  width: 100vw;
+  /* layout */
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Community .feed {
+  width: 45rem;
+  height: fit-content;
+  background-color: rgb(213, 173, 215);
+  /* layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 0 2rem 0;
+}
+
+/* feed form */
+.Community .feed .feed-form {
+  background-color: rgb(157, 210, 233);
+  width: 95%;
+  height: 4rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.Community .feed .feed-form input {
+  background-color: transparent;
+  height: 2rem;
+  width: 10rem;
+  outline: none;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 0.2rem 0.4rem;
+  margin-right: 1rem;
+  /* cursor: pointer; */
+}
+.Community .feed .feed-form input:focus,
+.Community .feed .feed-form input:hover {
+  background-color: #ffffff88;
+}
+.Community .feed .feed-form input[type="submit"] {
+  width: 2.2rem;
+  color: #333;
+}
+
+/* feed title */
+.Community .feed .feed-title {
+  height: 3rem;
+  width: 100%;
+  /* background-color: green; */
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: large;
+  /* layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 1rem; */
+}

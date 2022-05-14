@@ -1,0 +1,45 @@
+/* styls for Reminder module */
+
+.Reminder {
+  /* background-color: red; */
+  width: 100vw;
+  /* height: 4rem; */
+  padding: 2rem;
+  /* layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Reminder .empty-list {
+  font-size: .8rem;
+  font-family: 'Lato', sans-serif;
+  color: #f04f4f99;
+  margin: 0 .2rem;
+}
+
+/* reminders title */
+.Reminder .reminders-title {
+  margin-bottom: .6rem;
+  color: #999;
+  font-family: 'Lato', sans-serif;
+}
+
+/* reminders section */
+.Reminder .reminders-section {
+  border: 3px solid #888;
+  border-radius: 14px;
+  max-width: 52rem;
+  width: fit-content;
+  height: min-content;
+  max-height: 20rem;
+  overflow-Y: auto;
+  overflow-X: hidden;
+  /* layout */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: .25rem;
+}

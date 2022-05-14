@@ -1,0 +1,44 @@
+/* styls for articles module */
+
+.Articles {
+  /* background-color: red; */
+  width: 100vw;
+  /* height: 4rem; */
+  padding: 2rem;
+  /* layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Articles .empty-list {
+  font-size: .8rem;
+  font-family: 'Lato', sans-serif;
+  color: #f04f4f99;
+  margin: 0 .2rem;
+}
+
+/* articles title */
+.Articles .articles-title {
+  margin-bottom: .6rem;
+  color: #999;
+  font-family: 'Lato', sans-serif;
+}
+
+/* articles section */
+.Articles .articles-section {
+  /* border: 3px solid #999; */
+  border-radius: 14px;
+  width: 70vw;
+  height: min-content;
+  max-height: 30rem;
+  overflow-Y: auto;
+  overflow-X: hidden;
+  /* layout */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: .25rem;
+}

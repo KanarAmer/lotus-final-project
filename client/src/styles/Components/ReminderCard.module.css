@@ -1,0 +1,33 @@
+/* styles for ReminderCard module */
+
+.ReminderCard {
+  width: 10rem;
+  height: 6rem;
+  /* border: 2px solid #bbb; */
+  background-color: #e0e0e0;
+  border-radius: 0 0 10px 0;
+  margin: .1rem;
+  /* layout */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: all .15s ease;
+}
+.ReminderCard:hover {
+  /* transform: scale(1.02); */
+  background-color: #d0d0d0;
+}
+
+.ReminderCard .reminder-name {
+  color: rgb(244, 44, 151);
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+}
+
+.ReminderCard .reminder-doc {
+  color: rgb(244, 44, 151);
+  font-family: 'Lato', sans-serif;
+  font-size: .7rem;
+}
